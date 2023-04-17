@@ -1,0 +1,45 @@
+.main-wrapper {
+  padding: 3% 10% 0 10%;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title h1 {
+  color: #828286;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.main-title_options {
+  display: flex;
+  align-items: center;
+}
+
+.main-title_options span {
+  color: #0d5adc;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+  padding-right: 5px;
+}
+
+.main-title_view-items-button :hover {
+  opacity: 0.7;
+}
+
+.main-title_view-items-button {
+  margin: 0 5px;
+  border: none;
+  color: #0d5adc;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.active {
+  border-bottom: 1.5px solid #0d5adc;
+}
